@@ -1,0 +1,119 @@
+html {
+    background-color:black;
+    
+    
+}
+button{
+    color: white;
+    font-size: 15px;
+    font-family: "Lucida Console", Courier, monospace;
+
+}
+
+
+#cockroach {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: solid 1px rgb(230, 221, 221);
+   
+    border-radius: 50%
+    
+}
+#cockroach:hover{
+    border: solid 5px #ffd900;
+}
+#foot{
+    width: 100px;
+    height: 100px;
+    background-color:#080102;
+    border: solid 1px white;
+    border-radius: 50%
+}
+#foot:hover{
+    border: solid 5px #ffd900;
+}
+#nuclear{
+    width: 100px;
+    height: 100px;
+    background-color:#080102;
+    border: solid 1px white;
+    border-radius: 50%
+}
+#nuclear:hover{
+    border: solid 5px #ffd900;
+}
+#restart{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: solid 1px white;
+    border-radius: 50%
+
+}
+#restart:hover{
+    border: solid 5px #c90700;
+}
+
+
+.buttons{
+    position: relative;
+    top:270px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly; 
+   /* super cool style */ 
+  
+    background-color: rgb(214, 212, 243);
+   /* border: solid 1px rgb(241, 231, 231); */
+    border-radius: 50%;  */
+    
+}
+
+/*when I say position is fixed, it's not web responsive. That's a problem */
+.restart{
+    position: absolute;
+    top: 170px;
+    
+}
+#liveText{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top:280px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color:white;
+}
+#scoreNumbers{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color:white;
+}
+#playerLive{
+    position:relative;
+    top:15px;
+    
+}
+#computerLive{
+    position:relative;
+    top:15px;
+}
+
+#playerText{
+    position:absolute;
+    top:10px;
+    left:10px;
+
+}
+.title{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#info{
+    color:white;
+}
